@@ -1,3 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@200,400,500,300&display=swap");
+
+:root {
+  --primary-color: linear-gradient(270deg, #903AFF 0%, #FE34B9 100%); 
+  --secondary-color: #D434FE;; /* secondary-color */
+  --accent-color: #903AFF; /* accent color */
+  --tertiary-color: #150E28; /*background*/
+  --text-color: #fff;
+  --z-index-1: 100;
+  --z-index-2: 200;
+  --z-index-3: 300;
+  --z-index-4: 400;
+  --z-index-5: -5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+  transition: all 0.5s ease;
+}
+
 body {
-  background-color: unset;
+  background-color: var(--tertiary-color);
+  color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Clash Display', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* $-Utility classes-$ */
+.flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.s-btw {
+  justify-content: space-between;
+}
+
+.align-y {
+  align-items: center;
+}
+
+.b-radius {
+  border-radius: 8px;
+}
+
+.f-width {
+  width: 100%;
+}
+
+.pad {
+  padding: 1rem 0.5rem;
+}
+
+.c_pad {
+  padding: 1rem;
+}
+
+.c-pad {
+  padding: 0.4rem;
+}
+
+.gap {
+  gap: 0.5rem;
+}
+
+.f-height {
+  height: 100%;
+}
+
+.bg-tertiary {
+  background-color: var(--tertiary-color);
+}
+
+/* nav */
+  .b-bottom {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+/* mobile nav */
+@media screen and (width < 768px) {
+  .inter {
+    font-family: Inter, 'san-serif';
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+/* btn */
+.btn {
+  color: var(--text-color);
+  background: var(--primary-color);
+  width: 10rem;
+  font-weight: 700;
+  height: 3rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.container {
+  --gutter: 1rem;
+  width: calc(100% - 1 * var(--gutter));
+  margin-inline: auto;
+}
+
+@media screen and (width >= 768px) {
+  .container {
+    --gutter: 8rem;
+    width: calc(100% - var(--gutter));
+    max-width: 1920px;
+    padding-block: 2rem;
+    margin-inline: auto;
+  }
 }

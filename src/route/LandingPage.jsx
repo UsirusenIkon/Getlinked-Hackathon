@@ -1,5 +1,11 @@
+import HomePage from "../components/homePage";
+// import TimeLine from "../components/timeline";
+
 export default function LandingPage() {
   return (
-    <div>LandingPage</div>
+    <>
+      <HomePage />
+      {/* <TimeLine /> */}
+    </>
   )
 }
