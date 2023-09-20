@@ -62,7 +62,7 @@ function Navigation() {
             get<span className={styles.logo}>linked</span>
           </b>
         </Link>
-        <div className={open || navBar ? styles.border : styles.border_1}>
+        <div className={open ? styles.border : styles.border_1}>
         <button
           type="button"
           title="menu"

@@ -1,18 +1,221 @@
 .home {
-  height: 100dvh;
+  padding-top: 6rem;
+  text-align: center;
 }
 
 .header {
-  width: 100%;
+  position: relative;
+}
+
+.header p {
+  font-weight: 700;
 }
 
 .overlay {
   position: absolute;
-  top: 3rem;
-  left: 0;
+  top: -5rem;
+  left: -1rem;
   z-index: var(--z-index-5);
 }
 
-.img {
+.guy {
   width: 100%;
+}
+
+.motto {
+  font-style: italic;
+  font-size: clamp(0.3rem, 4vw, 1.8rem);
+  letter-spacing: 1px;
+}
+
+@media screen and (width < 768px) {
+  .bulb {
+    position: relative;
+    top: -21px;
+    left: 13.3rem;
+  }
+
+  .img2 {
+    width: 100%;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .header_txt {
+    font-size: clamp(2rem, 4vw, 3rem);
+  }
+
+  .line {
+    position: relative;
+    top: -5px;
+    left: 22%;
+    width: 26%;
+  }
+
+  .guy_bg {
+    display: none;
+  }
+}
+
+.star_1 {
+  position: relative;
+  top: 1rem;
+  right: 12%;
+}
+
+.star:nth-of-type(2) {
+  position: relative;
+  top: -2.5rem;
+  right: -4%;
+  opacity: 0.5;
+  width: 6px;
+}
+
+.star:last-of-type {
+  position: relative;
+  top: -2px;
+  left: 8rem;
+  opacity: 0.5;
+  width: 6px;
+}
+
+.header_wrap {
+  position: relative;
+  margin: 2.4rem 0 1rem 0;
+}
+
+.btn {
+  margin-block: 2rem;
+  position: relative;
+}
+
+.num, .count{
+  font-weight: 400;
+  font-family: 'Unica One', cursive;
+}
+
+.count {
+  font-size: 3rem;
+}
+
+.num {
+  font-size: 1rem;
+}
+
+@media screen and (width >= 768px) {
+  .home {
+    /* width: 100%; */
+    margin-inline: unset;
+    padding-left: 4rem;
+  }
+
+  .overlay {
+    position: absolute;
+    top: -5rem;
+    left: 0;
+    z-index: var(--z-index-5);
+  }
+
+  .img2 {
+    display: none;
+  }
+
+  .img1 {
+    position: absolute;
+    top: 4rem;
+    left: 7rem;
+    width: 40rem;
+    /* height: 100vh; */
+  }
+
+  .header {
+    position: unset;
+    z-index: var(--z-index-4);
+    text-align: left;
+  }
+
+  .header_txt {
+    font-size: clamp(3rem, 5vw, 6rem);
+  }
+
+  .motto_wrap {
+    position: absolute;
+    right: 3rem;
+    top: 4.5rem;
+    font-style: italic;
+    font-size: clamp(0.6rem, 5vw, 2rem);
+    letter-spacing: 1px;
+  }
+
+  .bulb {
+    position: absolute;
+    right: 61%;
+    top: -1.3rem;
+    width: 1.5rem;
+  }
+
+  .line {
+    position: absolute;
+    top: 2rem;
+    left: 21rem;
+    width: 12rem;
+  }
+
+  .star_1 {
+    position: relative;
+    top: 1rem;
+    width: 1rem;
+    left: 1rem;
+  }
+  
+  .star:nth-of-type(2) {
+    position: relative;
+    top: -2.5rem;
+    right: -4%;
+    opacity: 0.5;
+    width: 6px;
+  }
+  
+  .star:last-of-type {
+    position: relative;
+    top: 4rem;
+    left: 14rem;
+    opacity: 0.5;
+    width: 16px;
+  }
+
+  .h_icons {
+    width: 3rem;
+  }
+
+  .guy {
+    z-index: -2;
+    top: 7rem;
+    right: 0;
+    width: 100%;
+    max-width: 450px;
+    position: absolute;
+  }
+
+  .guy_bg {
+    z-index: -2;
+    top: 4rem;
+    right: -8rem;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+  }
+
+  .guy_wrap {
+    overflow: hidden;
+  }
+}
+
+@media screen and (width >= 1000px) {
+  .guy {
+    max-width: 470px;
+    position: absolute;
+  }
 }

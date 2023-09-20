@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Svg ({className, width, height, width_2='100%', href, onClick}) {
+export default function Svg ({className, width='1.5em', height='1.5em', width_2='100%', href, onClick}) {
   return (
     <svg onClick={onClick}
       className={`svg_icon ${className}`} 

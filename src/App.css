@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Unica+One&display=swap');
 
 @import url("https://api.fontshare.com/v2/css?f[]=clash-display@200,400,500,300&display=swap");
 
@@ -52,6 +52,10 @@ ul {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .f-column {
   flex-direction: column;
 }
@@ -62,6 +66,10 @@ ul {
 
 .align-y {
   align-items: center;
+}
+
+.align-x {
+  justify-content: center;
 }
 
 .b-radius {
@@ -96,9 +104,19 @@ ul {
   background-color: var(--tertiary-color);
 }
 
+/* colors */
+.c-secondary {
+  color: var(--secondary-color);
+  font-family: inherit;
+}
+
 /* nav */
   .b-bottom {
   border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .svg_icon {
+    fill: currentColor;
   }
 
 /* mobile nav */
