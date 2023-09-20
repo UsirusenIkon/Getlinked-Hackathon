@@ -4,7 +4,7 @@
 
 :root {
   --primary-color: linear-gradient(270deg, #903AFF 0%, #FE34B9 100%); 
-  --secondary-color: #D434FE;; /* secondary-color */
+  --secondary-color: #D434FE; /* secondary-color */
   --accent-color: #903AFF; /* accent color */
   --tertiary-color: #150E28; /*background*/
   --text-color: #fff;

@@ -21,3 +21,6 @@ export const bulbIcon = `${bulb}#img`;
 
 import idea from "./idea.png"
 export const ideaIcon = `${idea}#img`;
+
+import arrow from "./arrow.png"
+export const arrowIcon = `${arrow}#img`;

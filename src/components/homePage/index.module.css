@@ -31,8 +31,13 @@
 @media screen and (width < 768px) {
   .bulb {
     position: relative;
+    width: 18px;
     top: -21px;
     left: 13.3rem;
+  }
+
+  .h_icons {
+    width: 20px;
   }
 
   .img2 {
@@ -202,20 +207,14 @@
   .guy_bg {
     z-index: -2;
     top: 4rem;
-    right: -8rem;
+    right: 0rem;
     width: 100%;
     max-width: 450px;
-    position: fixed;
+    position: absolute;
+    /* display: none; */
   }
 
   .guy_wrap {
     overflow: hidden;
-  }
-}
-
-@media screen and (width >= 1000px) {
-  .guy {
-    max-width: 470px;
-    position: absolute;
   }
 }
