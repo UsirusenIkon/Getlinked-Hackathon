@@ -38,7 +38,21 @@
 .star_3 {
   width: 12px;
   position: relative;
-  transform: translate(18rem, -2rem);
+  transform: translate(12rem, -2rem);
+}
+
+.bg {
+  top: 7rem;
+  left: -8rem;
+  width: 25rem;
+  height: 25rem;
+}
+
+.bg1 {
+  bottom: 0;
+  right: -10rem;
+  width: 30rem;
+  height: 30rem;
 }
 
 @media screen and (width >= 768px) {
@@ -71,5 +85,20 @@
     width: 12px;
     position: relative;
     transform: translate(-6rem, -1.3rem);
+  }
+
+  
+  .bg {
+    top: 8rem;
+    left: -9rem;
+    width: 40rem;
+    height: 40rem;
+  }
+
+  .bg1 {
+    top: 22rem;
+    left: 5rem;
+    width: 50rem;
+    height: 50rem;
   }
 }

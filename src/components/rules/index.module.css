@@ -2,6 +2,20 @@
   max-width: 18rem;
 }
 
+.bg {
+  top: -7rem;
+  left: -9rem;
+  width: 25rem;
+  height: 25rem;
+}
+
+.bg1 {
+  top: -16rem;
+  right: -10rem;
+  width: 30rem;
+  height: 30rem;
+}
+
 @media screen and (width < 768px) {
   .star {
     position: relative;
@@ -34,5 +48,19 @@
     left: 13rem;
     width: 1rem;
     opacity: 0.5;
+  }
+
+  .bg {
+    top: -4rem;
+    left: -4rem;
+    width: 40rem;
+    height: 40rem;
+  }
+
+  .bg1 {
+    top: 7rem;
+    left: 45rem;
+    width: 40rem;
+    height: 40rem;
   }
 }

@@ -1,0 +1,7 @@
+.overlay {
+  position: absolute;
+  border-radius: 50%;
+  z-index: -5;
+  background-image: radial-gradient(circle, #8f3aff6e, #290f4a11, #150e2800);
+  background-blend-mode: hard-light;
+}

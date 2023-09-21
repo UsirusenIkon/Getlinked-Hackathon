@@ -9,18 +9,14 @@ import {
   sparkIcon,
   starIcon,
 } from '../../assets';
+import Overlay from '../utility/overlay';
 
 export default function HomePage() {
   return (
-    <Container element={'section'} className={`b-bottom ${styles.home}`}>
+    <section className={`b-bottom ${styles.homeWrap}`}>
+      <Container element={'section'} className={`b-bottom ${styles.home}`}>
       <div className={` ${styles.header}`}>
-        <div className={`${styles.overlay}`}>
-          <img className={`${styles.img1}`} src="src\assets\Purple-Lens-Flare-PNG.png" />
-          <img
-            className={`${styles.img2}`}
-            src="src\assets\Purple-Lens-mobile.png"
-          />
-        </div>
+      <Overlay className={styles.bg} />
         <div className={styles.motto_wrap}>
           <h3 className={styles.motto}>
             Igniting a Revolution in HR Innovation
@@ -56,8 +52,9 @@ export default function HomePage() {
       </div>
       <div className={styles.guy_wrap}>
         <img src={guyIcon} className={styles.guy} />
-        <img src={'src/assets/Purple-Lens-Flare-PNG.png'} className={styles.guy_bg} />
+        <Overlay className={styles.bg1} />
       </div>
     </Container>
+    </section>
   );
 }

@@ -32,6 +32,14 @@ body {
   color: #fff;
 }
 
+#root {
+  overflow-x: hidden;
+}
+
+#root::-webkit-scrollbar {
+  display: none;
+}
+
 a {
   color: inherit;
   text-decoration: inherit;

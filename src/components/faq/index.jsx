@@ -9,7 +9,7 @@ export default function Faq() {
       children1={
         <div className={`${styles.img_wrap}`}>
           <img
-            className={`l-img ${styles.img}`}
+            className={`l-img f-width ${styles.img}`}
             src={faqIcon}
             alt="rulesIcon"
           />
