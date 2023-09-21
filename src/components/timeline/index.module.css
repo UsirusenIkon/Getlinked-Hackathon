@@ -1,0 +1,145 @@
+.timeline {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-block: 3rem;
+  gap: 3rem;
+}
+
+.order_wrap {
+  gap: 2rem;
+}
+
+.order {
+  height: 8.4rem;
+  justify-content: space-between;
+  position: relative;
+  padding-left: 1rem;
+  text-align: left;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 170.9%;
+}
+
+.info {
+  padding-inline: 1rem;
+}
+
+.order > p {
+  max-width: 70vw;
+}
+
+.title {
+  display: block;
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.numline {
+  position: absolute;
+  top: 0.5rem;
+  left: -0.9rem;
+}
+
+.star {
+  top: 2rem;
+  width: 12px;
+  position: relative;
+  left: 5rem;
+  filter: invert(33%) sepia(99%) saturate(3540%) hue-rotate(271deg) brightness(101%) contrast(105%);
+}
+
+.star_1 {
+  left: 17rem;
+  bottom: 34rem;
+  width: 12px;
+  position: relative;
+}
+
+.star_2 {
+  left: -2.4rem;
+  bottom: 2rem;
+  width: 12px;
+  opacity: 0.6;
+  position: relative;
+}
+
+.line {
+  position: relative;
+  border-radius: unset;
+  width: 2px;
+  height: 6rem;
+  border-radius: 26.5px;
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+}
+
+.number {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+}
+
+@media screen and (width >= 768px) {
+  .timeline {
+    gap: 10rem;
+  }
+
+  .info {
+    max-width: 26rem;
+  }
+
+  .order {
+    flex-direction: row;
+    align-items: center;
+    gap: 6%;
+  }
+
+  .order:nth-of-type(2n + 1) > p {
+    text-align: right;
+    max-width: unset;
+  }
+
+  .order:nth-of-type(2n + 2) {
+    flex-direction: row-reverse;
+  }
+
+  .order:nth-of-type(2n + 2) > .title {
+    text-align: right;
+  }
+
+  .order_text {
+    width: 100%;
+  }
+
+  .numline {
+    position: unset;
+  }
+
+  .number {
+    position: unset;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .line {
+    position: absolute;
+    top: -4rem;
+  }
+
+  .star {
+    top: 5rem;
+    width: 19px;
+  }
+
+  .star_1 {
+    left: 38rem;
+    bottom: 39rem;
+  }
+
+  .star_2 {
+    left: -1.4rem;
+    bottom: 9.5rem;
+  }
+}

@@ -38,7 +38,8 @@
 .star_3 {
   width: 12px;
   position: relative;
-  transform: translate(12rem, -2rem);
+  left: 102%;
+  top: -4rem;
 }
 
 .bg {

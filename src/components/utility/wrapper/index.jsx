@@ -2,7 +2,7 @@
 import Container from '../Container';
 import styles from "./wrapper.module.css"
 
-export default function Wrapper({className, children1, header1, header2, children2}) {
+export default function Wrapper({className, children1, header1, header2, children2, head_txt, classHead}) {
   return (
     <section
       className={`flex align-y align-x b-bottom ${styles.wrapper}`}
@@ -12,9 +12,12 @@ export default function Wrapper({className, children1, header1, header2, childre
           {children1}
         </div>
         <div className={`flex align-x f-width f-column ${styles.txt}`}>
-          <h3 className={styles.header}>{header1}<br />
-            <span className={styles.h_intro}>{header2}</span>
-          </h3>
+          <div className={classHead}>
+            <h2 className={styles.header}>{header1}<br />
+              <span className={styles.h_intro}>{header2}</span>
+            </h2>
+            <p>{head_txt}</p>
+          </div>
           {children2}
         </div>
       </Container>

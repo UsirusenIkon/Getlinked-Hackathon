@@ -34,7 +34,7 @@ export default function Faq() {
             getlinked Hackathon 1.0
           </p>
           {faqObj.map((item) => (
-            <div key={item.faq} className={`flex align-y f-row s-btw ${styles.faqs}`}>
+            <div key={item.id} className={`flex align-y f-row s-btw ${styles.faqs}`}>
               <span className={styles.question}>{item.faq}</span>
               <span className={styles.plus}>+</span>
             </div>

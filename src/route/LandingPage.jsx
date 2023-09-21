@@ -1,9 +1,10 @@
 import Criteria from "../components/criteria";
 import Faq from "../components/faq";
 import HomePage from "../components/homePage";
-// import TimeLine from "../components/timeline";
+import TimeLine from "../components/timeline";
 import Overview from "../components/overview";
 import Rules from "../components/rules";
+import Rewards from "../components/rewards";
 
 export default function LandingPage() {
   return (
@@ -12,8 +13,9 @@ export default function LandingPage() {
       <Overview />
       <Rules />
       <Criteria />
-      {<Faq />}
-      {/* <TimeLine /> */}
+      <Faq />
+      <TimeLine />
+      <Rewards />
     </>
   )
 }

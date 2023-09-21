@@ -36,3 +36,9 @@ export const faqIcon = `${faq}#img`;
 
 import question from "./question.png"
 export const faQIcon = `${question}#img`;
+
+import prize from "./prize.png"
+export const prizeIcon = `${prize}#img`;
+
+import rewards from "./rewards.png"
+export const rewardsIcon = `${rewards}#img`;
