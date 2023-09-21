@@ -1,5 +1,5 @@
 import { rulesIcon, starIcon } from '../../assets';
-import Wrapper from '../utility/wrapper/Wrapper';
+import Wrapper from '../utility/wrapper';
 import styles from './index.module.css';
 
 export default function Rules() {
@@ -7,7 +7,7 @@ export default function Rules() {
     <Wrapper
       children1={
         <>
-          <img className={styles.img} src={rulesIcon} alt="rulesIcon" />
+          <img className={`l-img ${styles.img}`} src={rulesIcon} alt="rulesIcon" />
           <img className={styles.star} src={starIcon} alt="rulesIcon" />
         </>
       }

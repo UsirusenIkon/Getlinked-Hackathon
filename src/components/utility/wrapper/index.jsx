@@ -8,7 +8,7 @@ export default function Wrapper({className, children1, header1, header2, childre
       className={`flex align-y align-x b-bottom ${styles.wrapper}`}
     >
       <Container element={'div'} className={`flex f-column ${className} ${styles.wrap}`}>
-        <div className={`flex f-width f-column align-y`}>
+        <div className={`flex f-width f-column align-x align-y`}>
           {children1}
         </div>
         <div className={`flex align-x f-width f-column ${styles.txt}`}>

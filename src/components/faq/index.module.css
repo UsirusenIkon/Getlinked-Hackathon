@@ -1,0 +1,132 @@
+@media screen and (width < 768px) {
+  .faq {
+    flex-direction: column-reverse;
+    padding-block: 2rem;
+  }
+
+  .question {
+    font-size: 12px;
+    max-width: 16rem;
+  }
+
+  .img_wrap {
+    position: relative;
+  }
+
+  .star_1 {
+    width: 18px;
+    transform: translate(1rem, -32rem);
+    filter: invert(47%) sepia(90%) saturate(6692%) hue-rotate(256deg) brightness(101%) contrast(102%);
+  }
+}
+
+.faqs {
+  border-bottom: 2px solid var(--secondary-color);
+  padding-block: 1rem;
+  text-align: left;
+}
+
+.question {
+  font-size: 12px;
+}
+
+.plus {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.icon_wrap {
+  position: absolute;
+}
+
+.star {
+  width: 18px;
+  transform: translate(15.5rem, -3rem);
+}
+
+.star_2 {
+  width: 12px;
+  transform: translate(-1.5rem, -12.5rem);
+  opacity: 0.5;
+}
+
+.star_3 {
+  width: 10px;
+  transform: translate(1rem, -19rem);
+  filter: invert(33%) sepia(99%) saturate(3540%) hue-rotate(271deg) brightness(101%) contrast(105%);
+}
+
+.star_4 {
+  width: 11px;
+  transform: translate(6.5rem, -23.8rem);
+  filter: invert(33%) sepia(99%) saturate(3540%) hue-rotate(271deg) brightness(101%) contrast(105%);
+}
+
+.faQ {
+  transform: translate(2.7rem, -22.5rem);
+}
+
+.faQ_1 {
+  width: 18px;
+  opacity: 0.8;
+  transform: translate(-3.3rem, -22rem);
+}
+.faQ_2 {
+  width: 18px;
+  opacity: 0.8;
+  transform: translate(5rem, -22rem);
+}
+
+@media screen and (width >= 768px) {
+  .faq {
+    padding-block: 8rem;
+  }
+
+  .star_1 {
+    width: 18px;
+    transform: translate(-2rem, -32rem);
+    filter: invert(47%) sepia(90%) saturate(6692%) hue-rotate(256deg) brightness(101%) contrast(102%);
+  }
+  
+}
+
+@media screen and (width >= 900px) {
+  .star {
+    width: 18px;
+    transform: translate(19.5rem, -3rem);
+  }
+
+  .star_2 {
+    width: 12px;
+    transform: translate(1.5rem, -14.5rem);
+    opacity: 0.5;
+  }
+
+  .star_3 {
+    width: 10px;
+    transform: translate(3rem, -23rem);
+    filter: invert(33%) sepia(99%) saturate(3540%) hue-rotate(271deg) brightness(101%) contrast(105%);
+  }
+  
+  .star_4 {
+    width: 11px;
+    transform: translate(9.5rem, -28.8rem);
+    filter: invert(33%) sepia(99%) saturate(3540%) hue-rotate(271deg) brightness(101%) contrast(105%);
+  }
+  
+  .faQ {
+    transform: translate(5.4rem, -27rem);
+  }
+
+  .faQ_1 {
+    width: 18px;
+    opacity: 0.8;
+    transform: translate(-1.3rem, -26rem);
+  }
+
+  .faQ_2 {
+    width: 18px;
+    opacity: 0.8;
+    transform: translate(8.5rem, -26rem);
+  }
+}

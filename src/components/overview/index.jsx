@@ -1,5 +1,5 @@
 import { arrowIcon, ideaIcon, starIcon } from '../../assets';
-import Wrapper from '../utility/wrapper/Wrapper';
+import Wrapper from '../utility/wrapper';
 import styles from "./index.module.css"
 
 export default function Overview() {

@@ -27,3 +27,12 @@ export const arrowIcon = `${arrow}#img`;
 
 import rules from "./rules.png"
 export const rulesIcon = `${rules}#img`;
+
+import criteria from "./criteria.png"
+export const criteriaIcon = `${criteria}#img`;
+
+import faq from "./faq.png"
+export const faqIcon = `${faq}#img`;
+
+import question from "./question.png"
+export const faQIcon = `${question}#img`;

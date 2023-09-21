@@ -8,6 +8,7 @@
   --accent-color: #903AFF; /* accent color */
   --tertiary-color: #150E28; /*background*/
   --text-color: #fff;
+  --title-color: #FF26B9;
   --z-index-1: 100;
   --z-index-2: 200;
   --z-index-3: 300;
@@ -22,6 +23,7 @@
   border: none;
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
+  font-weight: 700;
   transition: all 0.5s ease;
 }
 
@@ -160,5 +162,12 @@ ul {
 
   .f-reverse {
     flex-direction: row-reverse;
+  }
+}
+
+/* large images */
+@media screen and (width >= 900px) {
+  .l-img {
+    min-width: 25rem;
   }
 }

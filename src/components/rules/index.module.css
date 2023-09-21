@@ -36,9 +36,3 @@
     opacity: 0.5;
   }
 }
-
-@media screen and (width >= 900px) {
-  .img {
-    min-width: 25rem;
-  }
-}
