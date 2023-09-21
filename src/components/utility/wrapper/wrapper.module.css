@@ -1,0 +1,29 @@
+.wrapper {
+  padding-block: 1rem;
+  position: relative;
+}
+
+.wrap {
+  gap: 1rem;
+}
+
+.txt {
+  text-align: center;
+  padding: 2rem;
+}
+
+.h_intro {
+  font-family: inherit;
+  color: var(--secondary-color);
+}
+
+@media screen and (width >= 768px){
+  .txt {
+    text-align: unset;
+    padding: unset;
+  }
+
+  .header {
+    font-size: 1.4rem;
+  }
+}

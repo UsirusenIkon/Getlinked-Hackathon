@@ -153,4 +153,12 @@ ul {
     padding-block: 2rem;
     margin-inline: auto;
   }
+
+  .f-row {
+    flex-direction: row;
+  }
+
+  .f-reverse {
+    flex-direction: row-reverse;
+  }
 }

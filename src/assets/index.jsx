@@ -24,3 +24,6 @@ export const ideaIcon = `${idea}#img`;
 
 import arrow from "./arrow.png"
 export const arrowIcon = `${arrow}#img`;
+
+import rules from "./rules.png"
+export const rulesIcon = `${rules}#img`;

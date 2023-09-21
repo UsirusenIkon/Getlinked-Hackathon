@@ -1,0 +1,44 @@
+.img {
+  max-width: 18rem;
+}
+
+@media screen and (width < 768px) {
+  .star {
+    position: relative;
+    top: -12rem;
+    right: 9rem;
+  }
+
+  .star1 {
+    position: relative;
+    transform: translate(14rem, -22rem);
+    width: 12px;
+    opacity: 0.5;
+  }
+}
+
+@media screen and (width >= 768px) {
+  .img {
+    max-width: 25rem;
+  }
+
+  .star {
+    position: relative;
+    transform: translate(-15rem, -4rem);
+    width: 1.5rem;
+  }
+  
+  .star1 {
+    position: relative;
+    top: -16rem;
+    left: 13rem;
+    width: 1rem;
+    opacity: 0.5;
+  }
+}
+
+@media screen and (width >= 900px) {
+  .img {
+    min-width: 25rem;
+  }
+}
