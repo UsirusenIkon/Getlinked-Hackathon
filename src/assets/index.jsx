@@ -51,3 +51,6 @@ export const lockIcon = `${lock}#img`;
 
 import lock1 from "./lock1.png"
 export const lock1Icon = `${lock1}#img`;
+
+import tick from "./tick.svg"
+export const tickIcon = `${tick}#img`;

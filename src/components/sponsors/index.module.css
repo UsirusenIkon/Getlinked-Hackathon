@@ -8,9 +8,83 @@
   padding: 3rem;
 }
 
-@media screen and (width >=768px) {
+.star {
+  top: -10.5rem;
+  left: 1.5rem;
+  width: 7px;
+  position: relative;
+  filter: var(--purple-filter)
+}
+
+.star_1 {
+  top: -7.5rem;
+  left: 55%;
+  width: 7px;
+  position: relative;
+  filter: var(--pink-filter)
+}
+
+.star_2 {
+  top: -2.5rem;
+  left: 90%;
+  width: 13px;
+  position: relative;
+}
+
+.overlay {
+  width: 40rem;
+  height: 40rem;
+  top: -13rem;
+  right: 8rem;
+}
+
+.overlay_1 {
+  width: 35rem;
+  height: 35rem;
+  bottom: -7rem;
+  left: 8rem;
+}
+
+@media screen and (width >= 768px) {
   .head p {
     max-width: 32rem;
     margin-inline: auto
+  }
+
+  .star {
+    top: -27.5rem;
+    left: 2.5rem;
+    width: 17px;
+    position: relative;
+    filter: var(--purple-filter)
+  }
+  
+  .star_1 {
+    top: -22.5rem;
+    left: 60%;
+    width: 7px;
+    position: relative;
+    filter: var(--pink-filter)
+  }
+  
+  .star_2 {
+    top: -4.5rem;
+    left: 55%;
+    width: 21px;
+    position: relative;
+  }
+
+  .overlay {
+    width: 50rem;
+    height: 50rem;
+    top: 9rem;
+    left: 37rem;
+  }
+  
+  .overlay_1 {
+    width: 50rem;
+    height: 50rem;
+    bottom: 5rem;
+    left: -19rem;
   }
 }

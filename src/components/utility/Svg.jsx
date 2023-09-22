@@ -1,6 +1,5 @@
-import React from "react";
-
-export default function Svg ({className, width='1.5em', height='1.5em', width_2='100%', href, onClick}) {
+/* eslint-disable react/prop-types */
+export default function Svg ({className, width='1.5rem', height='1.5rem', width_2='100%', href, onClick}) {
   return (
     <svg onClick={onClick}
       className={`svg_icon ${className}`} 

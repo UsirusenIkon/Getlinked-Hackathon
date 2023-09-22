@@ -19,6 +19,10 @@
   color: var(--secondary-color);
 }
 
+.header {
+  font-weight: 700;
+}
+
 @media screen and (width >= 768px){
   .wrap {
     padding-block: 3rem;
@@ -29,6 +33,7 @@
   }
 
   .header {
-    font-size: 1.4rem;
+    font-weight: 700;
+    font-size: 24px;
   }
 }

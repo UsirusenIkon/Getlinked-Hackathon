@@ -11,6 +11,10 @@
   font-weight: 700;
 }
 
+.header_txt span {
+  font-size: inherit;
+}
+
 .overlay {
   position: absolute;
   top: -5rem;
@@ -48,7 +52,7 @@
     display: none;
   }
 
-  .header_txt {
+  .header_txt  {
     font-size: clamp(2rem, 4vw, 3rem);
   }
 
@@ -157,7 +161,7 @@
     text-align: left;
   }
 
-  .header_txt {
+  .header_txt  {
     font-size: clamp(3rem, 5vw, 6rem);
   }
 

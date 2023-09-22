@@ -1,7 +1,9 @@
-import { lock1Icon, lockIcon } from '../../assets';
+import Overlay from '../utility/overlay';
+import { lock1Icon, lockIcon, starIcon, tickIcon } from '../../assets';
 import Button from '../utility/Button';
 import Wrapper from '../utility/wrapper';
 import styles from './index.module.css';
+import Svg from '../utility/Svg';
 
 export default function Terms() {
   return (
@@ -15,6 +17,10 @@ export default function Terms() {
         <div className={styles.bg_img}>
           <img src={lockIcon} className={`l-img ${styles.img}`} alt="img" />
           <img src={lock1Icon} className={styles.img1} alt="img" />
+          <img className={styles.star_3} src={starIcon} alt="rulesIcon" />
+          <img className={styles.star_4} src={starIcon} alt="rulesIcon" />
+          <img className={styles.star_5} src={starIcon} alt="rulesIcon" />
+          <img className={styles.star_6} src={starIcon} alt="rulesIcon" />
         </div>
       }
       children2={
@@ -36,22 +42,27 @@ export default function Terms() {
               <h3>Licensing Policy</h3>
               <span>Here are terms of our Standard License:</span>
             </div>
+            
             <div className={`flex gap ${styles.policies}`}>
-              <span>✅</span>
+              <Svg href={tickIcon} width='4rem' />
               <p>
                 The Standard License grants you a non-exclusive right to
                 navigate and register for our event
               </p>
             </div>
             <div className={`flex gap ${styles.policies}`}>
-              <span>✅</span>
+              <Svg href={tickIcon} width='4rem' />
               <p>
                 You are licensed to use the item available at any free source
                 sites, for your project developement
               </p>
             </div>
           <Button>Read More</Button>
+          <Overlay className={styles.overlay} />
           </div>
+          <img className={styles.star} src={starIcon} alt="rulesIcon" />
+          <img className={styles.star_1} src={starIcon} alt="rulesIcon" />
+          <img className={styles.star_2} src={starIcon} alt="rulesIcon" />
         </>
       }
     />

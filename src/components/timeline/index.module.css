@@ -47,7 +47,7 @@
   width: 12px;
   position: relative;
   left: 5rem;
-  filter: invert(33%) sepia(99%) saturate(3540%) hue-rotate(271deg) brightness(101%) contrast(105%);
+  filter: var(--purple-filter)
 }
 
 .star_1 {
