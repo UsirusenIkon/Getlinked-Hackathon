@@ -54,3 +54,21 @@ export const lock1Icon = `${lock1}#img`;
 
 import tick from "./tick.svg"
 export const tickIcon = `${tick}#img`;
+
+import fb from "./f.svg"
+export const fbIcon = `${fb}#img`;
+
+import ig from "./ig.svg"
+export const igIcon = `${ig}#img`;
+
+import linkedIn from "./linkedIn.svg"
+export const linkedInIcon = `${linkedIn}#img`;
+
+import x from "./x.svg"
+export const xIcon = `${x}#img`;
+
+import contact from "./phone.svg"
+export const contactIcon = `${contact}#img`;
+
+import location from "./location.svg"
+export const locationIcon = `${location}#img`;

@@ -7,6 +7,7 @@ import Rules from "../components/rules";
 import Rewards from "../components/rewards";
 import Sponsors from "../components/sponsors";
 import Terms from "../components/terms";
+import Footer from "../components/footer";
 
 export default function LandingPage() {
   return (
@@ -20,6 +21,7 @@ export default function LandingPage() {
       <Rewards />
       <Sponsors />
       <Terms />
+      <Footer />
     </>
   )
 }

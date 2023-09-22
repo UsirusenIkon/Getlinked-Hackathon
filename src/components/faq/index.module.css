@@ -16,7 +16,7 @@
   .star_1 {
     width: 18px;
     transform: translate(1rem, -32rem);
-    filter: invert(47%) sepia(90%) saturate(6692%) hue-rotate(256deg) brightness(101%) contrast(102%);
+    filter: var(--purple-filter);
   }
 }
 
