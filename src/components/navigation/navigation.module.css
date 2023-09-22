@@ -78,7 +78,7 @@ b {
 /* nav */
 .tilt {
   rotate: 45deg;
-  width: var(--bar-width);
+  width: calc(var(--bar-width) + 3px);
   background-color: var(--text-color);
   translate: 0.22rem calc(var(--bar-height) / -9);
 }
@@ -95,10 +95,9 @@ b {
 .rtilt {
   background-color: var(--text-color);
   rotate: -45deg;
-  width: var(--bar-width);
+  width: calc(var(--bar-width) + 3px);
   position: relative;
   left: 0;
-  /* bottom: 0; */
   translate: 0.22rem calc(var(--bar-height) / 9);
 }
 
@@ -168,6 +167,15 @@ b {
     align-items: center;
     margin-top: 0;
     padding-right: 0;
+  }
+
+  .hide1 {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .see1 {
+    opacity: 1;
   }
 }
 

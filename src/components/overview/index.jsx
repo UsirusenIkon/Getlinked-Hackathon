@@ -4,7 +4,7 @@ import styles from "./index.module.css"
 
 export default function Overview() {
   return (
-    <Wrapper 
+    <Wrapper id={'overview'}
     children1={
       <>
         <img src={starIcon} className={styles.star_1} />

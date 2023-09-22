@@ -2,9 +2,9 @@
 import Container from '../Container';
 import styles from "./wrapper.module.css"
 
-export default function Wrapper({className, children1, header1, header2, children2, head_txt, classHead, wrapClass}) {
+export default function Wrapper({className, children1, header1, header2, children2, head_txt, classHead, wrapClass, id}) {
   return (
-    <section
+    <section id={id}
       className={`flex align-y align-x b-bottom ${wrapClass} ${styles.wrapper}`}
     >
       <Container element={'div'} className={`flex f-column ${className} ${styles.wrap}`}>

@@ -123,7 +123,6 @@
     left: -19rem;
     filter: var(--pink-filter);
   }
-
 }
 
 @media (765px < width < 870px) {

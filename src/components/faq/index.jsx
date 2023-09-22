@@ -5,7 +5,7 @@ import styles from './index.module.css';
 
 export default function Faq() {
   return (
-    <Wrapper
+    <Wrapper id={'faq'}
       children1={
         <div className={`${styles.img_wrap}`}>
           <img

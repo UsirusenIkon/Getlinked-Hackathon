@@ -5,7 +5,7 @@ import { timelineObj } from './timelineObj';
 
 export default function Timeline() {
   return (
-    <Container element={'section'} className={`flex ${styles.timeline}`}>
+    <Container element={'section'} id='timeline' className={`flex ${styles.timeline}`}>
       <div className="flex f-column gap">
         <h2>Timeline</h2>
         <p className={styles.info}>
