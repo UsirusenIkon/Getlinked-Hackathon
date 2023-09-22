@@ -57,6 +57,7 @@ b {
   outline: 2px solid var(--accent-color);
   border-radius: 50%;
   background: linear-gradient(90deg, #903AFF 3.08%, #FF26B9 93.85%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -83,7 +84,7 @@ b {
 }
 
 .tilt1 {
-  width: 11px;
+  width: 10px;
 }
 
 .hide {
@@ -102,9 +103,9 @@ b {
 }
 
 .rtilt1 {
-  width: 11px;
+  width: 10px;
   position: relative;
-  left: 11.5px;
+  left: 9.6px;
   bottom: 0;
 }
 

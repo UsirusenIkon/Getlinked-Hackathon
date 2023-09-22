@@ -42,3 +42,12 @@ export const prizeIcon = `${prize}#img`;
 
 import rewards from "./rewards.png"
 export const rewardsIcon = `${rewards}#img`;
+
+import sponsors from "./sponsors.png"
+export const sponsorsIcon = `${sponsors}#img`;
+
+import lock from "./lock.png"
+export const lockIcon = `${lock}#img`;
+
+import lock1 from "./lock1.png"
+export const lock1Icon = `${lock1}#img`;

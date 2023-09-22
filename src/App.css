@@ -22,14 +22,36 @@
   box-sizing: border-box;
   border: none;
   font-family: 'Montserrat', sans-serif;
+  font-size: clamp(12px, 5vw, 14px);
   scroll-behavior: smooth;
-  font-weight: 700;
+  font-weight: 400;
   transition: all 0.5s ease;
 }
 
 body {
   background-color: var(--tertiary-color);
   color: #fff;
+}
+
+/* $-width-$ */
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* $-Track-$ */
+body::-webkit-scrollbar-track {
+  background-color: var(--tertiary-color);
+}
+
+/* $-Handle-$ */
+body::-webkit-scrollbar-thumb {
+  background-color: var(--accent-color);
+  border-radius: 8px;
+}
+
+/* $-Handle on hover-$ */
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
 }
 
 #root {
@@ -51,6 +73,7 @@ h3,
 h4,
 h5 {
   font-family: 'Clash Display', sans-serif;
+  font-size: 20px;
 }
 
 ul {
@@ -170,6 +193,15 @@ ul {
 
   .f-reverse {
     flex-direction: row-reverse;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: 'Clash Display', sans-serif;
+    font-size: 32px;
   }
 }
 
