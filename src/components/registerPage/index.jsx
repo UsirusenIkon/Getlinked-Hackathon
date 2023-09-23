@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { arrowLeftIcon, regisIcon, starIcon } from '../../assets';
 import Button from '../utility/Button';
 import Form from '../utility/form';
-import Input from '../utility/form/input';
+import Input from '../utility/form/Input';
 import Wrapper from '../utility/wrapper';
 import styles from './index.module.css';
 import { useState } from 'react';
