@@ -6,7 +6,7 @@ import Button from '../utility/Button';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Form from '../utility/form';
-import Input from '../utility/form/input';
+import Input from '../utility/form/Input';
 import Overlay from '../utility/overlay';
 
 export default function ContactPage() {
