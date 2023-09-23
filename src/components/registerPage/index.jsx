@@ -6,7 +6,7 @@ import Input from '../utility/form/Input';
 import Wrapper from '../utility/wrapper';
 import styles from './index.module.css';
 import { useState } from 'react';
-import Modal from './modal';
+import Modal from './Modal';
 import Overlay from '../utility/overlay';
 
 export default function RegisterPage() {
