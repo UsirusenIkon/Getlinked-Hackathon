@@ -14,7 +14,7 @@ import Overlay from '../utility/overlay';
 export default function HomePage() {
   return (
     <section className={`b-bottom ${styles.homeWrap}`}>
-      <Container element={'div'} className={`b-bottom ${styles.home}`}>
+      <Container element={'div'} className={` ${styles.home}`}>
       <div className={` ${styles.header}`}>
       <Overlay className={styles.bg} />
         <div className={styles.motto_wrap}>

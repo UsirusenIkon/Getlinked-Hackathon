@@ -238,3 +238,36 @@
     overflow: hidden;
   }
 }
+
+@media screen and (width >= 1023px) {
+  .homeWrap {
+    height: 100vh;
+  }
+
+  .bulb {
+    right: 51%;
+    top: -0.3rem;
+  }
+
+  .motto_wrap {
+    right: 3rem;
+    top: 6.5rem;
+  }
+
+  .header {
+    font-size: 1.2rem;
+  }
+
+  .header h1 {
+    font-size: 4.6rem;
+  }
+
+  .guy {
+    z-index: -2;
+    top: 9rem;
+    right: 10px;
+    width: 100%;
+    max-width: 502px;
+    position: absolute;
+  }
+}
