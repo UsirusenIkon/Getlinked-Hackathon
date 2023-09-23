@@ -17,7 +17,7 @@ const NavItem = ({ item, onClick, className, drop }) => {
           </Link>
         </li>
       ) : location.pathname === '/contact' ||
-        location.pathname === 'register' ? (
+        location.pathname === '/register' ? (
         <li onClick={onClick} className={className}>
           <Link
             className={`flex f-column inter 
