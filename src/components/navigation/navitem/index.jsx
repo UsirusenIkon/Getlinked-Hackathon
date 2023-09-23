@@ -16,9 +16,22 @@ const NavItem = ({ item, onClick, className, drop }) => {
             {item.name}
           </Link>
         </li>
+      ) : location.pathname === '/contact' ||
+        location.pathname === 'register' ? (
+        <li onClick={onClick} className={className}>
+          <Link
+            className={`flex f-column inter 
+          ${drop ? styles.active : styles.exit_color}
+          ${styles.nav_item}`}
+            to={'/'}
+          >
+            {item.name}
+          </Link>
+        </li>
       ) : (
         <li onClick={onClick} className={className}>
-          <a className={`flex f-column inter 
+          <a
+            className={`flex f-column inter 
           ${drop ? styles.active : styles.exit_color}
           ${styles.nav_item}`}
             href={item.path}
@@ -30,5 +43,4 @@ const NavItem = ({ item, onClick, className, drop }) => {
     </>
   );
 };
-// ${  pathname.includes(item.path) ? styles.active : ''}
 export default NavItem;
