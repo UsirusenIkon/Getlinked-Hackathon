@@ -72,3 +72,18 @@ export const contactIcon = `${contact}#img`;
 
 import location from "./location.svg"
 export const locationIcon = `${location}#img`;
+
+import arrowLeft from "./arrowLeft.svg"
+export const arrowLeftIcon = `${arrowLeft}#img`;
+
+import girl from "./girl.png"
+export const girlIcon = `${girl}#img`;
+
+import man from "./man.png"
+export const manIcon = `${man}#img`;
+
+import regis from "./regis.png"
+export const regisIcon = `${regis}#img`;
+
+import congratulation from "./congratulation.png"
+export const congratsIcon = `${congratulation}#img`;

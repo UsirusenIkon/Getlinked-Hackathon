@@ -1,0 +1,228 @@
+.regisWrap {
+  border-bottom: unset;
+}
+
+.inputsWrap {
+  gap: 1rem;
+}
+
+.last_input select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  color: var(--text-color);
+  border: 1.5px solid var(--text-color);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+optgroup {
+  appearance: none;
+  color: black;
+}
+
+.i {
+  color: var(--title-color);
+}
+
+.btn {
+  margin-inline: auto;
+}
+
+.img {
+  width: 100%;
+}
+
+.nil {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.modalWrap {
+  padding: 2rem;
+  text-align: center;
+  margin: auto;
+  max-width: 35rem;
+  background-color: transparent;
+}
+
+.modal {
+  border: 1px solid var(--secondary-color);
+  color: var(--text-color);
+  padding: 2rem;
+}
+
+.btn {
+  width: 100%;
+}
+
+.modalWrap::backdrop {
+  background-color: rgba(21, 14, 40, 0.93);
+}
+
+.star {
+  position: relative;
+  bottom: 21rem;
+  left: 13rem;
+  width: 13px;
+  filter: var(--purple-filter);
+}
+
+.star_1 {
+  position: relative;
+  width: 13px;
+  opacity: 0.5;
+  bottom: 10rem;
+  left: -4rem;
+}
+
+.star_2 {
+  position: relative;
+  width: 13px;
+  left: 47%;
+  top: 4rem;
+  filter: var(--pink-filter);
+}
+
+.m_img {
+  max-width: 20rem;
+}
+
+.overlay {
+  width: 30rem;
+  height: 30rem;
+  top: 4rem;
+  right: 10rem;
+}
+
+.star1 {
+  position: relative;
+  width: 12px;
+  top: 14rem;
+  left: 11rem;
+  filter: var(--pink-filter);
+}
+
+.star2 {
+  width: 12px;
+  position: relative;
+  top: 38rem;
+  right: 13rem;
+  opacity: 0.5;
+}
+
+.star3 {
+  width: 12px;
+  position: relative;
+  top: 25rem;
+  left: 21rem;
+  filter: var(--purple-filter);
+}
+
+.star4 {
+  display: none;
+}
+
+.star5 {
+  display: none;
+}
+
+@media screen and (width >= 768px) {
+  .register {
+    flex-direction: row;
+  }
+
+  .nil {
+    display: none;
+  }
+
+  .modal h1 {
+    font-size: 20px;
+  }
+
+  .inputsWrap {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .star {
+    position: relative;
+    bottom: 20rem;
+    left: 16rem;
+    width: 13px;
+    filter: var(--purple-filter);
+  }
+  
+  .star_1 {
+    position: relative;
+    bottom: 10rem;
+    left: -8rem;
+    width: 13px;
+    opacity: 0.5;
+  }
+  
+  .star_2 {
+    position: relative;
+    width: 13px;
+    filter: var(--pink-filter);
+    top: 1rem;
+    left: 14rem;
+  }
+
+  .star1 {
+    top: 23rem;
+    left: 13rem;
+  }
+
+  .star2{
+    top: 28rem;
+    right: 8rem;
+  }
+
+  .star3 {
+    width: 12px;
+    position: relative;
+    top: 33rem;
+  }
+
+  .star4 {
+    display: block;
+    width: 12px;
+    position: relative;
+    top: -33rem;
+    right: 30rem;
+    filter: var(--purple-filter);
+  }
+  
+  .star5 {
+    display: block;
+    position: relative;
+    bottom: 39rem;
+    left: 21rem;
+    width: 16px;
+    opacity: 0.5;
+  }
+
+  .overlay {
+    position: fixed;
+    width: 40rem;
+    height: 40rem;
+    top: -7rem;
+    right: 45rem;
+  }
+
+  .overlay_1 {
+    width: 40rem;
+    height: 40rem;
+    top: 14rem;
+    right: -15rem;
+    position: fixed;
+  }
+}
+
+@media screen and (width >= 900px) {
+  .form {
+    min-width: 31rem;
+  }
+}

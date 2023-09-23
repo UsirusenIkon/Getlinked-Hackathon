@@ -87,10 +87,6 @@ b {
   width: 10px;
 }
 
-.hide {
-  opacity: 0;
-  visibility: hidden;
-}
 
 .rtilt {
   background-color: var(--text-color);
@@ -106,10 +102,6 @@ b {
   position: relative;
   left: 9.6px;
   bottom: 0;
-}
-
-.see {
-  opacity: 1;
 }
 
 .hue_1 {
@@ -138,6 +130,16 @@ b {
   padding: 1rem;
 }
 
+@media screen and (width < 768px) {
+    .see {
+    opacity: 1;
+  }
+  
+  .hide {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 @media screen and (width >= 768px) {
   .nav_content {
     overflow: unset;

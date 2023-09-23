@@ -8,7 +8,7 @@
   --accent-color: #903AFF; /* accent color */
   --tertiary-color: #150E28; /*background*/
   --text-color: #fff;
-  --title-color: #FF26B9;
+  --title-color: #010101;
   --purple-filter: invert(47%) sepia(90%) saturate(6692%) hue-rotate(256deg) brightness(101%) contrast(102%);
   --pink-filter: invert(33%) sepia(99%) saturate(3540%) hue-rotate(271deg) brightness(101%) contrast(105%);
   --z-index-1: 100;
@@ -75,7 +75,8 @@ h3,
 h4,
 h5 {
   font-family: 'Clash Display', sans-serif;
-  font-size: 20px;
+  /* font-size: clamp(13px, 5vw, 21px); */
+  font-weight: 700;
 }
 
 ul {

@@ -34,7 +34,9 @@ function Navigation() {
 
   return (
     <nav
-      className={`f-width s-btw ${styles.nav} ${navBar ? `bg-tertiary` : ''}`}
+      className={`f-width s-btw ${styles.nav} 
+      ${navBar ? `bg-tertiary` : ''}
+      ${location.pathname !== '/' ? styles.hide : styles.see}`}
     >
       <Container
         element={'div'}
